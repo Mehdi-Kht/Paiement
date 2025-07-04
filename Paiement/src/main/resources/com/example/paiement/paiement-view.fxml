@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="397.0" style="-fx-background-color: #95a5a6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paiement.Options_Paiement">
+   <children>
+      <Button layoutX="76.0" layoutY="99.0" mnemonicParsing="false" onAction="#finaliserPaiementDebit" prefHeight="25.0" prefWidth="245.0" text="DEBIT" />
+      <Button layoutX="76.0" layoutY="173.0" mnemonicParsing="false" onAction="#finaliserPaiementMaster" prefHeight="25.0" prefWidth="245.0" text="MASTERCARD" />
+      <Button layoutX="76.0" layoutY="244.0" mnemonicParsing="false" onAction="#finaliserPaiementVisa" prefHeight="25.0" prefWidth="245.0" text="VISA" />
+      <TextField alignment="CENTER" layoutX="33.0" layoutY="26.0" prefHeight="25.0" prefWidth="336.0" style="-fx-background-color: #d0d3d4;" text="Options de Paiment" />
+   </children>
+</AnchorPane>
